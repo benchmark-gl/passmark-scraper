@@ -1,0 +1,19 @@
+{
+  "name": "passmark-scraper",
+  "version": "0.0.1",
+  "description": "Scraping passmark gpu data",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/benchmark-gl/passmark-scraper.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Eli Fitch",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0"
+  }
+}
